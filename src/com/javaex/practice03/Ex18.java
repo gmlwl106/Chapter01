@@ -17,12 +17,13 @@ public class Ex18 {
 			}
 			System.out.println();
 		}
-		for(i=0; i<num; i++) {
+		for(i=0; i<num-1; i++) {
 			for(j=0; j<=i+1; j++) {
 				System.out.print("*");
 			}
 			System.out.println();
 		}
+		
 		
 		sc.close();
 	}
