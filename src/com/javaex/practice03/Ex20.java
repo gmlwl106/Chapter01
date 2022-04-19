@@ -12,8 +12,7 @@ public class Ex20 {
 		System.out.println("==================================");
 
 		int num = 55; //숫자 설정
-		boolean flag = true;
-		while(flag) {
+		while(true) {
 			System.out.print(">>");
 			int myNum = sc.nextInt();
 			
@@ -28,7 +27,7 @@ public class Ex20 {
 				char y_n = sc.next().charAt(0); //char형식 scanner
 				
 				if(y_n == 'y') {
-					flag = false; //게임 종료 
+					break; //게임 종료
 				} else {
 					continue; //계속하기
 				}
