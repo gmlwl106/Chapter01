@@ -51,5 +51,15 @@ public class Ex04 {
 			System.out.println(cArray[i]);
 		}
 		
+		System.out.println("==============boolean================");
+		boolean[] bArray = new boolean[3];
+		bArray[0] = true;
+		bArray[1] = false;
+		bArray[2] = 3==5;
+		
+		for(int i=0; i<bArray.length; i++) {
+			System.out.println(bArray[i]);
+		}
+		
 	}
 }
