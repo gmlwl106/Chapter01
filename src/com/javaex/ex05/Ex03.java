@@ -23,8 +23,9 @@ public class Ex03 {
 		System.out.println("======================");
 		
 		
-		for(int i=0; i<6; i++) {
+		for(int i=0; i<nums.length; i++) {
 			System.out.println(nums[i]);
 		}
+		//nums.length : 배열의 길이
 	}
 }
